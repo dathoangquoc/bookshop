@@ -1,0 +1,113 @@
+<!-- 
+  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Hoang Quoc Dat
+  ID: s3979331
+  Acknowledgement: books from bookshop.org
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narnes & Boble</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="index.html">narnes & boble</a></div>
+      <div class="head_navbar">
+        <div class="hamburger">☰</div>
+        <div class="navbar_items">
+          <a href="index.html">Home</a>
+          <p>||</p>
+          <a href="fiction.html">Fiction</a>
+          <p>|</p>
+          <a href="non_fiction.html">Non-Fiction</a>
+        </div>
+      </div>
+    </header>
+    <section>
+      <h1>Contact Us</h1>
+      <form action="#" method="post" autocomplete="off">
+        <label for="purpose">Contact Purpose</label>
+        <select name="purpose" id="purpose">
+          <option value="sell">I want to sell books</option>
+          <option value="buy">I want to buy books</option>
+        </select>
+        <br />
+        <label for="name">Name: </label><br />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Your name*"
+          required
+        /><br />
+        <label for="email">Email: </label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your email address*"
+          required
+        /><br />
+        <label for="phone">Phone Number: </label><br />
+        <input type="tel" placeholder="Your phone number" /><br />
+        <p>Contact Preference</p>
+        <label for="by_email">
+          <input
+            type="checkbox"
+            id="by_email"
+            name="by_email"
+            value="By Email"
+          />
+          By Email </label
+        ><br />
+        <label for="by_phone">
+          <input
+            type="checkbox"
+            id="by_phone"
+            name="by_phone"
+            value="By Phone"
+          />
+          By Phone </label
+        ><br />
+        <label for="newsletter"
+          ><input type="checkbox" id="newsletter" name="newsletter" checked />
+          Receive weekly newsletter</label
+        ><br />
+        <input type="submit" value="Submit" />
+        <input type="reset" />
+      </form>
+    </section>
+    <footer>
+      <div class="foot_navbar">
+        <div class="navbar_items">
+          <a href="about.html">Abous Us</a>
+          <p>|</p>
+          <a href="about.html">Privacy Policy</a>
+          <p>|</p>
+          <a href="about.html">Terms</a>
+          <p>|</p>
+          <a href="about.html">Copyright</a>
+          <p>|</p>
+          <a href="/contact_us.html">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

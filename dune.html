@@ -1,0 +1,134 @@
+<!-- 
+  RMIT University Vietnam
+  Course: COSC2430 Web Programming
+  Semester: 2023B
+  Assessment: Assignment 1
+  Author: Hoang Quoc Dat
+  ID: s3979331
+  Acknowledgement: books from bookshop.org
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narnes & Boble</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- to do list
+  - use both "id" and "class"
+  - add video
+  - favicon + logo
+  - acknowledgement
+  -->
+  <!-- Checklist -->
+  <!-- 
+    - img have alt
+    - form inputs with labels
+   -->
+  <body>
+    <header>
+      <div class="logo"><a href="index.html">narnes & boble</a></div>
+      <div class="head_navbar">
+        <div class="hamburger">☰</div>
+        <div class="navbar_items">
+          <a href="/index.html">Home</a>
+          <p>||</p>
+          <a href="/fiction.html"><b>Fiction</b></a>
+          <p>|</p>
+          <a href="/non_fiction.html">Non-Fiction</a>
+        </div>
+      </div>
+    </header>
+    <ol id="breadcrumb">
+      <li><a href="/index.html">Home</a></li>
+      <li>>></li>
+      <li><a href="/fiction.html">Fiction</a></li>
+      <li>>></li>
+      <li><a href="/scifi.html">Science Fiction</a></li>
+      <li>>></li>
+      <li><a href="#">Dune</a></li>
+    </ol>
+    <div class="book_detail">
+      <div class="images">
+        <img
+          src="https://images-us.bookshop.org/ingram/9780441005901.jpg?height=500&v=v2-b3889ed83fe8c31ae03f7a25ae718bd8"
+          alt="main image"
+          class="main_img"
+        />
+        <div class="sub_img">
+          <img
+            src="https://images-us.bookshop.org/ingram/9780143111580.jpg?height=500&v=v2"
+            alt="image 1"
+          />
+          <img
+            src="https://images-us.bookshop.org/ingram/9780441172719.jpg?height=500&v=v2-8d2537de807a0e718ac94db96e80ffbb"
+            alt="image 2"
+          />
+          <img
+            src="https://images-us.bookshop.org/ingram/9780441005901.jpg?height=500&v=v2-b3889ed83fe8c31ae03f7a25ae718bd8"
+            alt="image 3"
+          />
+        </div>
+      </div>
+      <div class="price_cart">
+        <p class="price">$10.99</p>
+        <button class="cart">
+          <p>Add to cart</p>
+          <!-- <img
+            src="https://cdn-icons-png.flaticon.com/512/60/60992.png"
+            alt="cart"
+          /> -->
+        </button>
+      </div>
+    </div>
+    <section class="description">
+      <h1>Dune</h1>
+      <h2>Frank Herbert</h2>
+      <p>
+        NOW A MAJOR MOTION PICTURE directed by Denis Villeneuve and starring
+        Timothée Chalamet, Zendaya, Jason Momoa, Rebecca Ferguson, Oscar Isaac,
+        Josh Brolin, Stellan Skarsgård, Dave Bautista, Stephen McKinley
+        Henderson, Chang Chen, Charlotte Rampling, and Javier Bardem.
+      </p>
+      <p>
+        Dune will be forever considered a triumph of the imagination. Set on the
+        desert planet Arrakis, it is the story of the boy Paul Atreides, who
+        will become the mysterious man known as Muad'Dib. Paul's noble family is
+        named stewards of Arrakis, whose sands are the only source of a powerful
+        drug called "the spice." After his family is brought down in a
+        traitorous plot, Paul must go undercover to seek revenge, and to bring
+        to fruition humankind's most ancient and unattainable dream. A stunning
+        blend of adventure and mysticism, environmentalism and politics, Dune
+        won the first Nebula Award, shared the Hugo Award, and formed the basis
+        of what is undoubtedly the grandest epic in science fiction.
+      </p>
+    </section>
+    <footer>
+      <div class="foot_navbar">
+        <div class="navbar_items">
+          <a href="about.html">Abous Us</a>
+          <p>|</p>
+          <a href="about.html">Privacy Policy</a>
+          <p>|</p>
+          <a href="about.html">Terms</a>
+          <p>|</p>
+          <a href="about.html">Copyright</a>
+          <p>|</p>
+          <a href="/contact_us.html">Contact Us</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
